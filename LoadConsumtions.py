@@ -1,3 +1,6 @@
+import findspark
+findspark.init('C:/spark/spark-3.0.0-bin-hadoop2.7')
+findspark.find()
 from py7zr import is_7zfile,SevenZipFile
 import boto3
 from botocore.exceptions import ClientError
