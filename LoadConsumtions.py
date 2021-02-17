@@ -8,6 +8,7 @@ from pyspark.sql import SparkSession
 from pyspark.sql.functions import * #lit,udf,lenght
 from pyspark.sql.types import *
 import os
+import sys
 import time
 
 spark = SparkSession \
