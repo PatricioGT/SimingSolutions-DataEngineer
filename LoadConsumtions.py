@@ -15,8 +15,8 @@ spark = SparkSession \
 .appName("App to load csv data from smtp SSolution path") \
 .getOrCreate()
 
-ACCESS_KEY = 'AKIARSREW5LBCG26D4BE'
-SECRET_KEY = '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'
+ACCESS_KEY = str(sys.argv)[2]
+SECRET_KEY = str(sys.argv)[3]
 
 startTime = time.time()
 
